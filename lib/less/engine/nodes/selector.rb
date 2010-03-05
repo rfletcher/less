@@ -40,5 +40,9 @@ module Less
     class PseudoElement < Selector
       def to_css; self end
     end
+
+    class Sibling < Selector
+      def to_css; " #{self} " end
+    end
   end
 end

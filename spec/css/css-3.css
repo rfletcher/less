@@ -19,3 +19,4 @@ li:nth-child(n+1) { color: white; }
 li:nth-child(-n+2) { color: white; }
 a[href^="http://"], a[href$="http://"] { color: black; }
 p::before { color: black; }
+li.current ~ li { color: white; }
